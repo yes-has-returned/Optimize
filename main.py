@@ -11,12 +11,12 @@ events = pygame.event.get()
 screen = pygame.display.set_mode((1280, 720))
 
 def ProcessTile(tilename):
-    tilename = "Tile art/" + tilename + ".png"
+    tilename = "assets/Tile art/" + tilename + ".png"
     returntile = pygame.transform.scale_by(pygame.image.load(tilename),3)
     return returntile
 
 def ProcessPSprite(spritename):
-    spritename = "Player sprites/" + spritename + ".png"
+    spritename = "assets/Player sprites/" + spritename + ".png"
     returnsprite = pygame.image.load(spritename)
     return returnsprite
 
