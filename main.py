@@ -298,16 +298,16 @@ while running:
         keypress = ""
         jkeypress = ""
         dashpress = False
-        if keys[pygame.K_w] == True:
+        if keys[pygame.K_w] or keys[pygame.K_UP]:
             jkeypress = "w"
 
-        elif keys[pygame.K_s] == True:
+        elif keys[pygame.K_s] or keys[pygame.K_DOWN]:
             jkeypress = "s"
 
-        if keys[pygame.K_d] == True:
+        if keys[pygame.K_d] or keys[pygame.K_RIGHT]:
             keypress = "d"
 
-        elif keys[pygame.K_a] == True:
+        elif keys[pygame.K_a] or keys[pygame.K_LEFT]:
             keypress = "a"
 
         if keys[pygame.K_SPACE] == True:
