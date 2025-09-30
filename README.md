@@ -1,7 +1,7 @@
 # Distant Sky
 > **Authors**:
 >
-> Ian Tang <ian.tan3@education.nsw.gov.au>
+> Ian Tang <ian.tang3@education.nsw.gov.au>
 >
 > Jiayu Hu <jiayu.hu1@education.nsw.gov.au>
 
