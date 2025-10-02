@@ -33,14 +33,19 @@ picturedict = {
     "Underworks 3-1": ProcessTile("Underworks 3-1"),
     "Underworks 4-1": ProcessTile("Underworks 4-1"),
     "Underworks 5-1": ProcessTile("Underworks 5-1"),
+    "Underworks 1-2": ProcessTile("Underworks 1-2"),
+    "Underworks 2-2": ProcessTile("Underworks 2-2"),
+    "Underworks 3-2": ProcessTile("Underworks 3-2"),
+    "Underworks 4-2": ProcessTile("Underworks 4-2"),
+    "Underworks 5-2": ProcessTile("Underworks 5-2"),
 }
 
 difficultydict = {
-    1: ["Underworks 1-1"],
-    2: ["Underworks 2-1"],
-    3: ["Underworks 3-1"],
-    4: ["Underworks 4-1"],
-    5: ["Underworks 5-1"],
+    1: ["Underworks 1-1", "Underworks 1-2"],
+    2: ["Underworks 2-1", "Underworks 2-2"],
+    3: ["Underworks 3-1", "Underworks 3-2"],
+    4: ["Underworks 4-1", "Underworks 4-2"],
+    5: ["Underworks 5-1", "Underworks 5-2"],
 }
 
 tiledict = {}
@@ -496,7 +501,7 @@ class Enemy:
 
 gravity = 2.5
 running = True
-testing_mode = "battling"
+testing_mode = "battling" #battling or navigation
 black = pygame.Color(0, 0, 0)
 white = pygame.Color(255, 255, 255)
 M = Gmap(picturedict, "Underworks 1-1", difficultydict, tiledict)
